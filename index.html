@@ -8,8 +8,11 @@
         <title>Lee Press Portfolio</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <link href="./assets/css/all.css" rel="stylesheet"> <!--load all styles -->
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
@@ -27,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Skill</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Skills</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
@@ -44,7 +47,7 @@
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 font-weight-light mb-5">I'm a full-stack developer with an eye for design.  I create clean and responsive applications with the user always in mind.</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">Check out some of my projects</a>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">Check out some of my work</a>
                     </div>
                 </div>
             </div>
@@ -63,35 +66,53 @@
             </div>
         </section>
         <!-- Services-->
-        <section class="page-section" id="services">
+        <section class="page-section skills" id="services">
             <div class="container">
                 <h2 class="text-center mt-0">Skills</h2>
-                <hr class="divider my-4" />
+                <hr class="divider div-blue my-4" />
                 <div class="row">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+                          <div class="language-icons">
+                            <i class="devicon-javascript-plain"></i>
+                            <i class="devicon-python-plain"></i>
+                            <i class="devicon-react-original"></i>
+                            <i class="devicon-bootstrap-plain"></i>
+                            <i class="devicon-jquery-plain"></i>
+                            <i class="devicon-nodejs-plain"></i>
+                          </div>
                             <h3 class="h4 mb-2">Languages & Frameworks</h3>
                             <p class="text-muted mb-0">HTML/CSS, Javascript, Python, Django, React, Bootstrap, JQuery, Node, Express, AJAX</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                            <div class="language-icons">
+                              <i class="devicon-mongodb-plain"></i>
+                              <i class="devicon-postgresql-plain"></i>
+                            </div>
                             <h3 class="h4 mb-2">Databases</h3>
                             <p class="text-muted mb-0">MongoDB, Mongoose, SQL, PostgreSQL</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Methodologies</h3>
+                          <div class="language-icons">
+                            <i class="fas fa-code-branch"></i>
+                            <i class="fas fa-project-diagram"></i>
+                            <i class="fas fa-sitemap"></i>
+                          </div>
+                          <h3 class="h4 mb-2">Methodologies</h3>
                             <p class="text-muted mb-0">Object Oriented Programming, Test-Driven Development, Responsive Design, Authentication, User Stories, ERDs, Wireframing, Agile Development/Scrum.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+                            <div class="language-icons">
+                              <i class="devicon-git-plain"></i>
+                              <i class="devicon-github-plain"></i>
+                              <i class="devicon-heroku-original"></i>
+                            </div>
                             <h3 class="h4 mb-2">Management & Deployment</h3>
                             <p class="text-muted mb-0">Git, GitHub, Heroku, Command Line</p>
                         </div>
@@ -102,6 +123,8 @@
         <!-- Portfolio-->
         <div id="portfolio">
             <div class="container-fluid p-0">
+              <h2 class="text-center mt-0">Projects</h2>
+              <hr class="divider my-4" />
                 <div class="row no-gutters">
                     <div class="col-lg-4 col-sm-4">
                         <a class="portfolio-box" href="https://tslilpress.github.io/Tic-Tac-Toe/" target="_blank">
@@ -179,12 +202,11 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                        <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+                        <i class="fas fa-phone fa-3x mb-3"></i>
                         <div>+1 (646) 269-5273</div>
                     </div>
                     <div class="col-lg-4 mr-auto text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                        <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
+                        <i class="fas fa-envelope fa-3x mb-3"></i>
                         <a class="d-block" href="mailto:tslilpress@gmail.com">tslilpress@gmail.com</a>
                     </div>
                 </div>
