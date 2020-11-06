@@ -419,11 +419,16 @@ h6, .h6 {
 
 .devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .fa-js-square, .devicon-jquery-plain-wordmark, .devicon-bootstrap-plain-wordmark, .devicon-heroku-plain-wordmark, .devicon-mongodb-plain-wordmark, .devicon-react-original-wordmark, .fa-stripe {
   font-size: 2rem;
+  color: #45a29e;
 }
 
 
 .language-icons {
   margin-bottom: 10px;
+}
+
+.project-head {
+  color: #45a29e;
 }
 
 .project-icons {
