@@ -417,8 +417,17 @@ h6, .h6 {
   margin: 5px;
 }
 
+.devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .fa-js-square, .devicon-jquery-plain-wordmark, .devicon-bootstrap-plain-wordmark, .devicon-heroku-plain-wordmark, .devicon-mongodb-plain-wordmark, .devicon-react-original-wordmark, .fa-stripe {
+  font-size: 2rem;
+}
+
+
 .language-icons {
   margin-bottom: 10px;
+}
+
+.project-icons {
+  margin-top: 20px;
 }
 
 
