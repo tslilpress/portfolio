@@ -395,7 +395,7 @@ h6, .h6 {
   font-weight: 300;
 }
 
-.devicon-javascript-plain, .devicon-python-plain, .devicon-react-original, .devicon-bootstrap-plain, .devicon-jquery-plain, .devicon-nodejs-plain, .devicon-mongodb-plain, .devicon-postgresql-plain, .devicon-git-plain, .devicon-github-plain, .devicon-heroku-original, .devicon-sass-original, .devicon-firebase-plain-wordmark {
+.devicon-javascript-plain, .devicon-python-plain, .devicon-react-original, .devicon-bootstrap-plain, .devicon-jquery-plain, .devicon-nodejs-plain, .devicon-mongodb-plain, .devicon-postgresql-plain, .devicon-git-plain, .devicon-github-plain, .devicon-heroku-original, .devicon-sass-original {
   color: #45a29e;
   font-size: 2rem;
   margin: 2px;
@@ -417,7 +417,7 @@ h6, .h6 {
   margin: 5px;
 }
 
-.devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .fa-js-square, .devicon-jquery-plain-wordmark, .devicon-bootstrap-plain-wordmark, .devicon-heroku-plain-wordmark, .devicon-mongodb-plain-wordmark, .devicon-react-original-wordmark, .fa-stripe {
+.devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .fa-js-square, .devicon-jquery-plain-wordmark, .devicon-bootstrap-plain-wordmark, .devicon-heroku-plain-wordmark, .devicon-mongodb-plain-wordmark, .devicon-react-original-wordmark, .fa-stripe, .devicon-firebase-plain-wordmark {
   font-size: 2rem;
   color: #45a29e;
 }
