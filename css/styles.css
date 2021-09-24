@@ -395,7 +395,7 @@ h6, .h6 {
   font-weight: 300;
 }
 
-.devicon-javascript-plain, .devicon-python-plain, .devicon-react-original, .devicon-bootstrap-plain, .devicon-jquery-plain, .devicon-nodejs-plain, .devicon-mongodb-plain, .devicon-postgresql-plain, .devicon-git-plain, .devicon-github-plain, .devicon-heroku-original, .devicon-sass-original {
+.devicon-javascript-plain, .devicon-python-plain, .devicon-react-original, .devicon-bootstrap-plain, .devicon-jquery-plain, .devicon-nodejs-plain, .devicon-mongodb-plain, .devicon-mysql-plain, .devicon-git-plain, .devicon-github-plain, .devicon-heroku-original, .devicon-sass-original {
   color: #45a29e;
   font-size: 2rem;
   margin: 2px;
